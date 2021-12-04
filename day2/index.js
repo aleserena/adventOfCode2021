@@ -17,9 +17,9 @@ for (let i = 0; i < data.length; i++) {
 
 };
 
-console.log("Horizontal: "+ horizontal); // 2105
-console.log("Depth: "+ depth); // 807
-console.log("Response: "+ horizontal * depth); // 1698735
+console.log("Horizontal: " + horizontal); // 2105
+console.log("Depth: " + depth); // 807
+console.log("Response: " + horizontal * depth); // 1698735
 
 //Part2
 let aim = 0;
@@ -39,7 +39,7 @@ for (let i = 0; i < data.length; i++) {
 
 };
 
-console.log("Horizontal: "+ horizontal); // 2105
-console.log("Depth: "+ depth); // 807
-console.log("Aim: "+ aim); // 807
-console.log("Response: "+ horizontal * depth); // 1698735
+console.log("Horizontal: " + horizontal); // 2105
+console.log("Depth: " + depth); // 807
+console.log("Aim: " + aim); // 807
+console.log("Response: " + horizontal * depth); // 1698735
