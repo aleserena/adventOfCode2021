@@ -1,7 +1,7 @@
 //Part 1
 import { readFileSync } from 'fs';
 
-let data = readFileSync("C:/Users/Alejandro/OneDrive/Documents/Projects/adventOfCode/day4/data.txt").toString().split("\r\n");
+let data = readFileSync("./data.txt").toString().split("\r\n");
 let drawn = data.shift().split(",");
 let boards = []
 
