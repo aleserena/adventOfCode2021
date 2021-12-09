@@ -22,13 +22,11 @@ let daysPassBetter = function (_data, days) {
         if (element == 7) { fishes.seven++ }
         if (element == 8) { fishes.eight++ }
 
-
-        for (let jindex = 0; jindex < days; jindex++) {
-
-            fishes = dayPassBetter(fishes)
-
-        }
     });
+
+    for (let jindex = 0; jindex < days; jindex++) {
+        fishes = dayPassBetter(fishes)
+    }
 
     let fishesSum = fishes.zero + fishes.one + fishes.two + fishes.three + fishes.four + fishes.five + fishes.six + fishes.seven + fishes.eight
     console.log(fishes)
