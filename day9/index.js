@@ -1,7 +1,7 @@
 //Part 1
 import { readFileSync } from 'fs';
 
-let data = readFileSync("C:/Users/Alejandro/OneDrive/Documents/Projects/adventOfCode/day9/data.txt").toString().split("\r\n");
+let data = readFileSync("./data.txt").toString().split("\r\n");
 
 for (let index = data.length -1; index >= 0; index--) {
     
